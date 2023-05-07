@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389954890075",
+    "project_id": "mosquito-6e8b4",
+    "storage_bucket": "mosquito-6e8b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389954890075:android:2edf8bbb670bf25761d27e",
+        "android_client_info": {
+          "package_name": "com.mosquito.mosquito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389954890075-n4f80v0n5hspvm8asodjq99irekk8n0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0SZMaL2RR-JplXw0JJQPRyIftkmRVxFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389954890075-n4f80v0n5hspvm8asodjq99irekk8n0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
