@@ -32,7 +32,7 @@ class IntroPage extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => main_Page()),
+                    MaterialPageRoute(builder: (context) => MainPage()),
                   );
                 },
                 child: Container(
@@ -53,7 +53,7 @@ class IntroPage extends StatelessWidget {
                   ),
                   child: ClipOval(
                     child: Image.asset(
-                      'images/mosquito.jpeg',
+                      'images/mosquitoremove.png',
                       width: 146,
                       height: 146,
                       fit: BoxFit.cover,
