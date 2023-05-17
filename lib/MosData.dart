@@ -4,5 +4,10 @@ class MosData {
   final double valueHouse;
   final double valuePark;
 
-  MosData({required this.date, required this.valueWater, required this.valueHouse, required this.valuePark});
+  MosData({
+    required this.date,
+    required this.valueWater,
+    required this.valueHouse,
+    required this.valuePark
+  });
 }
