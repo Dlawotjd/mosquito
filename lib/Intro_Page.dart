@@ -53,7 +53,7 @@ class IntroPage extends StatelessWidget {
                   ),
                   child: ClipOval(
                     child: Image.asset(
-                      'images/mosquitoremove.png',
+                      'images/중간모기.png',
                       width: 146,
                       height: 146,
                       fit: BoxFit.cover,

@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -38,6 +36,7 @@ class _Main_Page extends State<MainPage>{
     fetchData();
   }
 
+  // 모기 데이터의 평균, 주거지, 수변지, 공원 부분 데이터 호출
   Future<void> fetchData() async {
     String date = DateFormat('yyyy-MM-dd').format(DateTime.now());
     MosAPI api = MosAPI();
@@ -55,10 +54,7 @@ class _Main_Page extends State<MainPage>{
     });
   }
 
-  var mosImgList = ["images/mmosquito_loss.png", "images/mosquitoremove.png", "images/mosquito_human.png"];
-
-  // 이미지 URL과 색상을 저장하는 리스트
-  List<String> imgUrls = ['images/Group3.png', 'images/Group2.png', 'images/Group1.png'];
+  var mosImgList = ["images/안전모기.png", "images/노란모기.png", "images/빨강모기.png"];
   List<String> colors = ['0xfff95DB94', '0xfffFFC178', '0xfffF97777'];
 
   var url = "";
@@ -106,13 +102,14 @@ class _Main_Page extends State<MainPage>{
     }
   }
 
-
     @override
   Widget build(BuildContext context) {
 
     return Scaffold(
-      body: Container(
-        child: isLoading ? CircularProgressIndicator() :
+      backgroundColor: const Color(0xFFFFF8EA),
+      body: isLoading ? Center(child: CircularProgressIndicator()):
+      Container(
+        child:
         Column(
           children: [
             Row(
@@ -131,27 +128,25 @@ class _Main_Page extends State<MainPage>{
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.only(right: 20, top: 20),
-                  child: ClipOval(
-                    child: IconButton(
-                      onPressed: () {
+                  padding: EdgeInsets.only(right: 20, top: 25),
+                  child: GestureDetector(
+                      onTap: () {
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => user_Page()),
                         );
-                      },
-                        icon: Icon(
-                          Icons.account_circle,
-                          size: 36,
-                          color: Color(0xff815B5B),
-                        )
-                    ),
+                      }, child: ClipOval(
+                          child: Image.asset("images/playstore.png",
+                          width: 40,
+                          height: 40
+                          )
+                      )
                   ),
                 ),
               ],
             ),
             Padding(
-              padding: EdgeInsets.only(top: 30),
+              padding: EdgeInsets.only(top: 20),
               child: Column(
                 children: [
                   Card(
@@ -201,12 +196,12 @@ class _Main_Page extends State<MainPage>{
                                           ),
                                         ),
                                       ),
-                                      ClipOval(
+                                      Padding(
+                                        padding: EdgeInsets.only(),
                                         child: Image.asset(
                                           url,
-                                          width: 130,
-                                          height: 130,
-                                          fit: BoxFit.cover,
+                                          width: 120,
+                                          height: 120,
                                         ),
                                       ),
                                     ],
