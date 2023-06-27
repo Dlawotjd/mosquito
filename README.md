@@ -10,6 +10,7 @@
 
 <img width="461" alt="image" src="https://github.com/lsg1024/mosquito/assets/92419747/2ee710f2-54ab-46a7-9fc2-1f830e737ffd">
 
+
 ![image](https://github.com/lsg1024/mosquito/assets/92419747/f21672d8-fd03-44a5-a8e6-5929f06e9d91)
 
 
@@ -39,6 +40,6 @@ FireBase와 Node.JS를 이용해 FCM 알림 서비스 기능 -> 사용자가 원
 ![image](https://github.com/lsg1024/mosquito/assets/92419747/4476cb02-f388-476e-adee-ba72cfc09c0b)
 
 # 전체 테스트 화면
-<img width="171" alt="image" src="https://github.com/lsg1024/mosquito/assets/92419747/da6881f7-1852-4d73-a3e2-bbe2e73f8a84">
+https://github.com/lsg1024/mosquito/assets/92419747/dbeb58a4-4de1-4002-b56f-da137bd12184
 
 
