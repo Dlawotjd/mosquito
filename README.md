@@ -2,6 +2,20 @@
 
 # 모기 알리미 - Flutter수업 프로젝트
 
+# 프로젝트 개요 
+해당 주제를 선정한 이유는 곧 다가올 여름을 맞이해 나타나는 모기들이 오늘은 얼마나 나타나는지 알려주는 서비스를 개발해 보는 것은 어떨까 생각하다 떠오른 아이디어 입니다.
+저희가 개발한 서비스는 사용자가 설정한 시간에 맞춰 디바이스에 알림을 보내줘 까먹지 않고 오늘의 모기량을 알 수 있게 도움을 주는 서비스입니다.
+
+# 전체 구조도 
+
+<img width="461" alt="image" src="https://github.com/lsg1024/mosquito/assets/92419747/2ee710f2-54ab-46a7-9fc2-1f830e737ffd">
+
+![image](https://github.com/lsg1024/mosquito/assets/92419747/f21672d8-fd03-44a5-a8e6-5929f06e9d91)
+
+
+![image](https://github.com/lsg1024/mosquito/assets/92419747/97fa8660-120b-446d-b20c-16868c00ebbd)
+
+
 # 대표 기능
   - 서울 모기 발생량 API 호출 후 확인
   - 모기 알림 FCM 서비스
@@ -16,11 +30,15 @@ FireBase와 Node.JS를 이용해 FCM 알림 서비스 기능 -> 사용자가 원
 <img width="461" alt="image" src="https://github.com/lsg1024/Flutter_practice/assets/92419747/117f605b-6b94-4c47-97e9-0f89e972eb51">
 
 # 인트로 화면
-![image](https://github.com/lsg1024/Flutter_practice/assets/92419747/a6e52f1c-2bb5-4298-9c7f-2f6081dcd9c8)
+![image](https://github.com/lsg1024/mosquito/assets/92419747/f245e523-0e55-438a-8060-fe2157d7e28c)
+
 # 메인 화면
-![image](https://github.com/lsg1024/Flutter_practice/assets/92419747/8b11004c-2b57-4648-9899-a36a170bf903)
+![image](https://github.com/lsg1024/mosquito/assets/92419747/c6ea3ab6-7f7e-4153-bf8a-2177f187ffb8)
+
 # 알림 설정 화면
-![image](https://github.com/lsg1024/Flutter_practice/assets/92419747/d9403e3e-70a9-4ec1-888d-a5c6d02e758e)
+![image](https://github.com/lsg1024/mosquito/assets/92419747/4476cb02-f388-476e-adee-ba72cfc09c0b)
+
 # 전체 테스트 화면
-https://github.com/lsg1024/Flutter_practice/assets/92419747/ea0fe14e-df70-40c7-a472-4e289b345ed4
+<img width="171" alt="image" src="https://github.com/lsg1024/mosquito/assets/92419747/da6881f7-1852-4d73-a3e2-bbe2e73f8a84">
+
 
